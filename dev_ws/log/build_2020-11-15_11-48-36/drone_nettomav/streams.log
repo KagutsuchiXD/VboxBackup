@@ -1,0 +1,41 @@
+[0.458s] Invoking command in '/home/afrobudha/hello_drone/dev_ws/src/drone_nettomav': PYTHONPATH=/home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_nettomav build --build-base /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build install --prefix /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav --record /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/install.log --single-version-externally-managed
+[0.776s] running egg_info
+[0.777s] creating ../../build/drone_nettomav/drone_nettomav.egg-info
+[0.777s] writing ../../build/drone_nettomav/drone_nettomav.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../build/drone_nettomav/drone_nettomav.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../build/drone_nettomav/drone_nettomav.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/drone_nettomav/drone_nettomav.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/drone_nettomav/drone_nettomav.egg-info/top_level.txt
+[0.782s] writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[0.851s] reading manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[0.852s] writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[0.853s] running build
+[0.853s] running build_py
+[0.854s] creating /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build
+[0.854s] creating /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib
+[0.854s] creating /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav
+[0.855s] copying drone_nettomav/commander.py -> /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav
+[0.855s] copying drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav
+[0.855s] copying drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav
+[0.856s] running install
+[0.857s] running install_lib
+[0.858s] creating /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[0.859s] copying /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav/commander.py -> /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[0.859s] copying /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[0.859s] copying /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build/lib/drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[0.861s] byte-compiling /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/commander.py to commander.cpython-38.pyc
+[0.863s] byte-compiling /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py to receiver.cpython-38.pyc
+[0.865s] byte-compiling /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/__init__.py to __init__.cpython-38.pyc
+[0.865s] running install_data
+[0.866s] creating /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/share/ament_index
+[0.867s] creating /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/share/ament_index/resource_index
+[0.867s] creating /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/share/ament_index/resource_index/packages
+[0.867s] copying resource/drone_nettomav -> /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/share/ament_index/resource_index/packages
+[0.867s] copying package.xml -> /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/share/drone_nettomav
+[0.867s] running install_egg_info
+[0.870s] Copying ../../build/drone_nettomav/drone_nettomav.egg-info to /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav-0.0.0-py3.8.egg-info
+[0.871s] running install_scripts
+[0.901s] Installing commander script to /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/drone_nettomav
+[0.901s] Installing receiver script to /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/drone_nettomav
+[0.902s] writing list of installed files to '/home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/install.log'
+[0.934s] Invoked command in '/home/afrobudha/hello_drone/dev_ws/src/drone_nettomav' returned '0': PYTHONPATH=/home/afrobudha/hello_drone/dev_ws/install/drone_nettomav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_nettomav build --build-base /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/build install --prefix /home/afrobudha/hello_drone/dev_ws/install/drone_nettomav --record /home/afrobudha/hello_drone/dev_ws/build/drone_nettomav/install.log --single-version-externally-managed

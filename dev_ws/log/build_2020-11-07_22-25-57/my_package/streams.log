@@ -1,0 +1,58 @@
+[0.393s] Invoking command in '/home/afrobudha/hello_drone/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/afrobudha/hello_drone/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/afrobudha/hello_drone/dev_ws/install/my_package
+[0.395s] -- The C compiler identification is GNU 9.3.0
+[0.396s] -- The CXX compiler identification is GNU 9.3.0
+[0.396s] -- Check for working C compiler: /usr/bin/cc
+[0.397s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.397s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.464s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.596s] -- Detecting CXX compiler ABI info
+[0.730s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.804s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.805s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.163s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.363s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.366s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/afrobudha/hello_drone/dev_ws/src/my_package/include>
+[1.366s] -- Configured cppcheck exclude dirs and/or files: 
+[1.368s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.368s] -- Configured cpplint exclude dirs and/or files: 
+[1.371s] -- Added test 'lint_cmake' to check CMake code style
+[1.373s] -- Added test 'uncrustify' to check C / C++ code style
+[1.373s] -- Configured uncrustify additional arguments: 
+[1.375s] -- Added test 'xmllint' to check XML markup files
+[1.378s] -- Configuring done
+[1.383s] -- Generating done
+[1.385s] -- Build files have been written to: /home/afrobudha/hello_drone/dev_ws/build/my_package
+[1.392s] Invoked command in '/home/afrobudha/hello_drone/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/afrobudha/hello_drone/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/afrobudha/hello_drone/dev_ws/install/my_package
+[1.393s] Invoking command in '/home/afrobudha/hello_drone/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/afrobudha/hello_drone/dev_ws/build/my_package -- -j3 -l3
+[1.444s] [35m[1mScanning dependencies of target my_node[0m
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.499s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.559s] [100%] Built target my_node
+[1.572s] Invoked command in '/home/afrobudha/hello_drone/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/afrobudha/hello_drone/dev_ws/build/my_package -- -j3 -l3
+[1.605s] Invoking command in '/home/afrobudha/hello_drone/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/afrobudha/hello_drone/dev_ws/build/my_package
+[1.617s] -- Install configuration: ""
+[1.617s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/lib/my_package/my_node
+[1.618s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.618s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.619s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.619s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.619s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/environment/path.sh
+[1.620s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[1.620s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/local_setup.bash
+[1.621s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/local_setup.sh
+[1.621s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[1.622s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[1.622s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/package.dsv
+[1.622s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.623s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.623s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.624s] -- Installing: /home/afrobudha/hello_drone/dev_ws/install/my_package/share/my_package/package.xml
+[1.629s] Invoked command in '/home/afrobudha/hello_drone/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/afrobudha/hello_drone/dev_ws/build/my_package

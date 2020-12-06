@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6eed320-0cb2-42fa-9a17-44c562f8faaa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1kJSfdjO0zGJcCDMizpUNQuJ9AR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6eed320-0cb2-42fa-9a17-44c562f8faaa" name="Default Changelist" comment="" />
+      <created>1605417307308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605417307308</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="774" y="235" width="424" height="521" key="FileChooserDialogImpl" timestamp="1605505301496">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state x="774" y="235" width="424" height="521" key="FileChooserDialogImpl/72.27.1848.923@72.27.1848.923" timestamp="1605505301496" />
+    <state x="485" y="123" width="1022" height="737" key="SettingsEditor" timestamp="1605417597142">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state x="485" y="123" width="1022" height="737" key="SettingsEditor/72.27.1848.923@72.27.1848.923" timestamp="1605417597142" />
+  </component>
+</project>

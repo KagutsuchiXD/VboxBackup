@@ -1,0 +1,22 @@
+[0.568s] Invoking command in '/home/afrobudha/hello_drone/dev_ws/src/py_srvcli': PYTHONPATH=/home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build install --prefix /home/afrobudha/hello_drone/dev_ws/install/py_srvcli --record /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.185s] running egg_info
+[1.187s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.199s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.200s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.201s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.202s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.478s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.491s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.492s] running build
+[1.492s] running build_py
+[1.507s] running install
+[1.524s] running install_lib
+[1.559s] running install_data
+[1.576s] running install_egg_info
+[1.618s] removing '/home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.619s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[1.633s] running install_scripts
+[1.724s] Installing client script to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/py_srvcli
+[1.724s] Installing service script to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/py_srvcli
+[1.725s] writing list of installed files to '/home/afrobudha/hello_drone/dev_ws/build/py_srvcli/install.log'
+[1.757s] Invoked command in '/home/afrobudha/hello_drone/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build install --prefix /home/afrobudha/hello_drone/dev_ws/install/py_srvcli --record /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

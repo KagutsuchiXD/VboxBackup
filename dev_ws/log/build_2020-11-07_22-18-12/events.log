@@ -1,0 +1,444 @@
+[0.000000] (-) TimerEvent: {}
+[0.000579] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002486] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.017294] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.018062] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.022767] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/afrobudha/hello_drone/dev_ws/build/turtlesim', '--', '-j3', '-l3'], 'cwd': '/home/afrobudha/hello_drone/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'afrobudha'), ('SSH_AGENT_PID', '1888'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/afrobudha'), ('OLDPWD', '/home/afrobudha/hello_drone/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1660'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/afrobudha/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'afrobudha'), ('JOURNAL_STREAM', '9:36886'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'afrobudha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/afrobudha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/RoboBox:@/tmp/.ICE-unix/1940,unix/RoboBox:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', '5d3053b8480e426f8d01fd594448b1f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a6c71bf_d115_4e6d_8002_e6aa567b3a6c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/afrobudha/hello_drone/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099573] (-) TimerEvent: {}
+[0.114736] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.117517] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.150376] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.154353] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.164900] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.182658] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.184374] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.200531] (-) TimerEvent: {}
+[0.203517] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.227019] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.254366] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.267152] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target mimic\n'}
+[0.267518] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[0.292451] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim_node\x1b[0m\n'}
+[0.295337] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.301020] (-) TimerEvent: {}
+[0.306330] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[0.339629] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.341913] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.371283] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.373764] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.401546] (-) TimerEvent: {}
+[0.502104] (-) TimerEvent: {}
+[0.602623] (-) TimerEvent: {}
+[0.703142] (-) TimerEvent: {}
+[0.805670] (-) TimerEvent: {}
+[0.906177] (-) TimerEvent: {}
+[1.007718] (-) TimerEvent: {}
+[1.109170] (-) TimerEvent: {}
+[1.209737] (-) TimerEvent: {}
+[1.310169] (-) TimerEvent: {}
+[1.410543] (-) TimerEvent: {}
+[1.511161] (-) TimerEvent: {}
+[1.611721] (-) TimerEvent: {}
+[1.712291] (-) TimerEvent: {}
+[1.812789] (-) TimerEvent: {}
+[1.913239] (-) TimerEvent: {}
+[2.013797] (-) TimerEvent: {}
+[2.114272] (-) TimerEvent: {}
+[2.214700] (-) TimerEvent: {}
+[2.315405] (-) TimerEvent: {}
+[2.415958] (-) TimerEvent: {}
+[2.516438] (-) TimerEvent: {}
+[2.616931] (-) TimerEvent: {}
+[2.717501] (-) TimerEvent: {}
+[2.817968] (-) TimerEvent: {}
+[2.918583] (-) TimerEvent: {}
+[3.019531] (-) TimerEvent: {}
+[3.120079] (-) TimerEvent: {}
+[3.220503] (-) TimerEvent: {}
+[3.321193] (-) TimerEvent: {}
+[3.421640] (-) TimerEvent: {}
+[3.522087] (-) TimerEvent: {}
+[3.622601] (-) TimerEvent: {}
+[3.723124] (-) TimerEvent: {}
+[3.823647] (-) TimerEvent: {}
+[3.924174] (-) TimerEvent: {}
+[4.025186] (-) TimerEvent: {}
+[4.125677] (-) TimerEvent: {}
+[4.226029] (-) TimerEvent: {}
+[4.326748] (-) TimerEvent: {}
+[4.427311] (-) TimerEvent: {}
+[4.527775] (-) TimerEvent: {}
+[4.628317] (-) TimerEvent: {}
+[4.728832] (-) TimerEvent: {}
+[4.829382] (-) TimerEvent: {}
+[4.929826] (-) TimerEvent: {}
+[5.030456] (-) TimerEvent: {}
+[5.131370] (-) TimerEvent: {}
+[5.231895] (-) TimerEvent: {}
+[5.332903] (-) TimerEvent: {}
+[5.433190] (-) TimerEvent: {}
+[5.533540] (-) TimerEvent: {}
+[5.633969] (-) TimerEvent: {}
+[5.734651] (-) TimerEvent: {}
+[5.835008] (-) TimerEvent: {}
+[5.935557] (-) TimerEvent: {}
+[6.036201] (-) TimerEvent: {}
+[6.137030] (-) TimerEvent: {}
+[6.237578] (-) TimerEvent: {}
+[6.338059] (-) TimerEvent: {}
+[6.438622] (-) TimerEvent: {}
+[6.539145] (-) TimerEvent: {}
+[6.639526] (-) TimerEvent: {}
+[6.740402] (-) TimerEvent: {}
+[6.840767] (-) TimerEvent: {}
+[6.941260] (-) TimerEvent: {}
+[7.041788] (-) TimerEvent: {}
+[7.142803] (-) TimerEvent: {}
+[7.243334] (-) TimerEvent: {}
+[7.343839] (-) TimerEvent: {}
+[7.444352] (-) TimerEvent: {}
+[7.545321] (-) TimerEvent: {}
+[7.645640] (-) TimerEvent: {}
+[7.746185] (-) TimerEvent: {}
+[7.846962] (-) TimerEvent: {}
+[7.947453] (-) TimerEvent: {}
+[8.048025] (-) TimerEvent: {}
+[8.148513] (-) TimerEvent: {}
+[8.248983] (-) TimerEvent: {}
+[8.350062] (-) TimerEvent: {}
+[8.450859] (-) TimerEvent: {}
+[8.552507] (-) TimerEvent: {}
+[8.653499] (-) TimerEvent: {}
+[8.754031] (-) TimerEvent: {}
+[8.854599] (-) TimerEvent: {}
+[8.955236] (-) TimerEvent: {}
+[9.055740] (-) TimerEvent: {}
+[9.157153] (-) TimerEvent: {}
+[9.258085] (-) TimerEvent: {}
+[9.358586] (-) TimerEvent: {}
+[9.459088] (-) TimerEvent: {}
+[9.559603] (-) TimerEvent: {}
+[9.660188] (-) TimerEvent: {}
+[9.760665] (-) TimerEvent: {}
+[9.861192] (-) TimerEvent: {}
+[9.961749] (-) TimerEvent: {}
+[10.062191] (-) TimerEvent: {}
+[10.162713] (-) TimerEvent: {}
+[10.263187] (-) TimerEvent: {}
+[10.363754] (-) TimerEvent: {}
+[10.429990] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[10.464302] (-) TimerEvent: {}
+[10.564808] (-) TimerEvent: {}
+[10.665865] (-) TimerEvent: {}
+[10.766356] (-) TimerEvent: {}
+[10.866939] (-) TimerEvent: {}
+[10.967497] (-) TimerEvent: {}
+[11.068510] (-) TimerEvent: {}
+[11.169437] (-) TimerEvent: {}
+[11.270043] (-) TimerEvent: {}
+[11.370645] (-) TimerEvent: {}
+[11.471477] (-) TimerEvent: {}
+[11.572531] (-) TimerEvent: {}
+[11.673088] (-) TimerEvent: {}
+[11.773638] (-) TimerEvent: {}
+[11.874111] (-) TimerEvent: {}
+[11.974821] (-) TimerEvent: {}
+[12.075556] (-) TimerEvent: {}
+[12.176075] (-) TimerEvent: {}
+[12.277125] (-) TimerEvent: {}
+[12.378017] (-) TimerEvent: {}
+[12.426393] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[12.444913] (turtlesim) CommandEnded: {'returncode': 0}
+[12.478348] (-) TimerEvent: {}
+[12.578665] (-) TimerEvent: {}
+[12.665814] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[12.680398] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/afrobudha/hello_drone/dev_ws/build/turtlesim'], 'cwd': '/home/afrobudha/hello_drone/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'afrobudha'), ('SSH_AGENT_PID', '1888'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/afrobudha'), ('OLDPWD', '/home/afrobudha/hello_drone/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1660'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/afrobudha/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'afrobudha'), ('JOURNAL_STREAM', '9:36886'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'afrobudha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/afrobudha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/RoboBox:@/tmp/.ICE-unix/1940,unix/RoboBox:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', '5d3053b8480e426f8d01fd594448b1f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a6c71bf_d115_4e6d_8002_e6aa567b3a6c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/afrobudha/hello_drone/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.682160] (-) TimerEvent: {}
+[12.698445] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.700963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[12.701148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.701283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.701440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[12.701548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.701803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.702140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[12.702308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[12.702450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[12.702690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[12.702836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[12.702954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[12.703092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[12.703194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[12.703296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[12.703417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.703662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[12.704050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.705137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[12.705264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[12.705460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[12.705599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[12.705719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.706750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[12.707161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[12.707287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[12.707598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[12.707802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[12.709923] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.710067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[12.710180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[12.710554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[12.710673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[12.710782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[12.710889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[12.711110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[12.711245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[12.711488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[12.711753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[12.711870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[12.712041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[12.712165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[12.712406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[12.712527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[12.712634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[12.712740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[12.712847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[12.713110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[12.713229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[12.713514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[12.713694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[12.713900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[12.714018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.714125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.714230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.714424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.714535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[12.714642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[12.714747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.714853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.714967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[12.715081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.715186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.715455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[12.715578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[12.715688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[12.715797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[12.715967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[12.716078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[12.716184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.716318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.716426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.716530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.716635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[12.716739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.716843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.716948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.717052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.717156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.717330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[12.717474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.717579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.717683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[12.717787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.717905] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.718046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.718202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.718320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.718464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.718569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.718673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.718777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.718881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.718986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[12.719090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[12.719291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[12.719429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[12.719541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.719649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.719929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[12.720113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[12.720298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.720410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.720517] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[12.720624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[12.720728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[12.720833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[12.720946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[12.721051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[12.721259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[12.721380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[12.721489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[12.721596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[12.721701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[12.721813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[12.721919] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.722022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.722157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[12.722265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.722370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[12.722473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[12.722576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[12.722678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[12.722781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[12.722883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[12.722986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[12.723139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.723316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.723430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[12.723551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[12.723655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[12.723771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[12.723882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.724178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[12.724296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[12.724402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[12.724506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[12.724609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[12.724711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.724812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[12.724914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[12.725034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[12.725219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[12.725321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[12.725422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[12.725523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[12.725624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[12.725732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[12.725834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[12.725936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[12.726143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[12.726259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[12.726364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[12.726466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[12.726567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim\n'}
+[12.726668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[12.726768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[12.726877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.727016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[12.727167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.727270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[12.727373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[12.727496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[12.727624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[12.727724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.727830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[12.727930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[12.728237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[12.728342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.728443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.728544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.728644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.728745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[12.728845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.729068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[12.729198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[12.729305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[12.729409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[12.729519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[12.729622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[12.729731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[12.729833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[12.764091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[12.765174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[12.765679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[12.765795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[12.766013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[12.766284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[12.766400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[12.766508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[12.766614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[12.766718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[12.766824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[12.767228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[12.767401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[12.767549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[12.767775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[12.768058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[12.768332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[12.768533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[12.768758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[12.768926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[12.769273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[12.769434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[12.769938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.770748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.771335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.771859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[12.772256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[12.772662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[12.773006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[12.773215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[12.773325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[12.773595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[12.773719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[12.773830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[12.774003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[12.774169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[12.774336] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[12.774611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[12.774752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[12.774863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[12.775079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[12.775199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[12.775308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[12.775415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[12.775520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[12.775625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[12.775730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[12.775848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[12.776167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[12.776291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[12.776400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[12.776506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[12.776612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[12.781098] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[12.781488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[12.782157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[12.782305] (-) TimerEvent: {}
+[12.782797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[12.783286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[12.783769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[12.784494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[12.785066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[12.785562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[12.785854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[12.786034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[12.786190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[12.786367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[12.786554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[12.786829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[12.787221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[12.787345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[12.787803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[12.788204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[12.788650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[12.789130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[12.789599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[12.789871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[12.790038] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[12.790146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[12.790250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[12.790354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.790512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.790698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.790801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[12.790903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.791005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[12.791107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.791209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.791310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[12.791412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.791603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[12.792475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.792798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.792910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.795539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.796168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.796355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.797555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[12.797780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[12.798012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/afrobudha/hello_drone/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[12.798213] (turtlesim) CommandEnded: {'returncode': 0}
+[12.882909] (-) TimerEvent: {}
+[12.983448] (-) TimerEvent: {}
+[13.077966] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[13.079386] (-) EventReactorShutdown: {}

@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000297] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000354] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000435] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000488] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.100556] (-) TimerEvent: {}
+[0.201481] (-) TimerEvent: {}
+[0.302409] (-) TimerEvent: {}
+[0.402950] (-) TimerEvent: {}
+[0.503453] (-) TimerEvent: {}
+[0.534147] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build', 'install', '--prefix', '/home/afrobudha/hello_drone/dev_ws/install/py_srvcli', '--record', '/home/afrobudha/hello_drone/dev_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/afrobudha/hello_drone/dev_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'afrobudha', 'SSH_AGENT_PID': '1747', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/afrobudha', 'OLDPWD': '/home/afrobudha/hello_drone/dev_ws/src/py_srvcli/py_srvcli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1521', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/afrobudha/ros2_install', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/afrobudha/hello_drone/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'afrobudha', 'JOURNAL_STREAM': '9:36045', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'afrobudha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/afrobudha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/RoboBox:@/tmp/.ICE-unix/1799,unix/RoboBox:/tmp/.ICE-unix/1799', 'INVOCATION_ID': '5735f34a371c410db3187a0affa9b16f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1f487569_dc09_4098_9249_fd7b4896bce9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/afrobudha/hello_drone/dev_ws/install/turtlesim:/home/afrobudha/hello_drone/dev_ws/install/py_pubsub:/home/afrobudha/hello_drone/dev_ws/install/my_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/afrobudha/hello_drone/dev_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/afrobudha/hello_drone/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/afrobudha/hello_drone/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/afrobudha/hello_drone/dev_ws/install/turtlesim:/home/afrobudha/hello_drone/dev_ws/install/my_package'}, 'shell': False}
+[0.604719] (-) TimerEvent: {}
+[0.706145] (-) TimerEvent: {}
+[0.807137] (-) TimerEvent: {}
+[0.910217] (-) TimerEvent: {}
+[1.011228] (-) TimerEvent: {}
+[1.077236] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.079705] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.080754] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.082066] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.082801] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.083382] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.083866] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.111628] (-) TimerEvent: {}
+[1.126207] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.212033] (-) TimerEvent: {}
+[1.314420] (-) TimerEvent: {}
+[1.346171] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.348147] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.348568] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.348702] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.349167] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build\n'}
+[1.349330] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib\n'}
+[1.349615] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.349949] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.350342] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.350690] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.351113] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.368679] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.395068] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.395267] (py_srvcli) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.395707] (py_srvcli) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.396058] (py_srvcli) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/dev_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.397004] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[1.399452] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[1.400096] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc\n'}
+[1.400488] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.407843] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/share/ament_index\n'}
+[1.408053] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.408163] (py_srvcli) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.409131] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.409278] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/share/py_srvcli\n'}
+[1.409387] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.414637] (-) TimerEvent: {}
+[1.452283] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[1.453749] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.514691] (-) TimerEvent: {}
+[1.546910] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.547648] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/afrobudha/hello_drone/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.548282] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/afrobudha/hello_drone/dev_ws/build/py_srvcli/install.log'\n"}
+[1.577084] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.615733] (-) TimerEvent: {}
+[1.717910] (-) TimerEvent: {}
+[1.748832] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.751195] (-) EventReactorShutdown: {}

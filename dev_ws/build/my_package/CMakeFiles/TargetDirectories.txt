@@ -1,0 +1,10 @@
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/install/strip.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/install/local.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/install.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/list_install_components.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/edit_cache.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/test.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/my_node.dir
+/home/afrobudha/hello_drone/dev_ws/build/my_package/CMakeFiles/uninstall.dir

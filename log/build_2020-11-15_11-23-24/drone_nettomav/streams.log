@@ -1,0 +1,53 @@
+[0.401s] Invoking command in '/home/afrobudha/hello_drone/src/drone_nettomav': PYTHONPATH=/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_nettomav build --build-base /home/afrobudha/hello_drone/build/drone_nettomav/build install --prefix /home/afrobudha/hello_drone/install/drone_nettomav --record /home/afrobudha/hello_drone/build/drone_nettomav/install.log --single-version-externally-managed
+[0.816s] running egg_info
+[0.817s] creating ../../build/drone_nettomav/drone_nettomav.egg-info
+[0.817s] writing ../../build/drone_nettomav/drone_nettomav.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/drone_nettomav/drone_nettomav.egg-info/dependency_links.txt
+[0.818s] writing entry points to ../../build/drone_nettomav/drone_nettomav.egg-info/entry_points.txt
+[0.818s] writing requirements to ../../build/drone_nettomav/drone_nettomav.egg-info/requires.txt
+[0.818s] writing top-level names to ../../build/drone_nettomav/drone_nettomav.egg-info/top_level.txt
+[0.864s] writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[1.044s] reading manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[1.046s] writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'
+[1.046s] running build
+[1.046s] running build_py
+[1.047s] creating /home/afrobudha/hello_drone/build/drone_nettomav/build
+[1.047s] creating /home/afrobudha/hello_drone/build/drone_nettomav/build/lib
+[1.047s] creating /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav
+[1.047s] copying drone_nettomav/commander.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav
+[1.047s] copying drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav
+[1.048s] copying drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav
+[1.048s] running install
+[1.067s] running install_lib
+[1.094s] creating /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[1.095s] copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/commander.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[1.095s] copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[1.095s] copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav
+[1.096s] byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/commander.py to commander.cpython-38.pyc
+[1.098s] byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py to receiver.cpython-38.pyc
+[1.098s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.099s]   if data.find(com1) is not -1:
+[1.099s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:35: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.099s]   if data.find(r1) is not -1:
+[1.099s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:37: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.099s]   elif data.find(r2) is not -1:
+[1.100s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:39: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.100s]   elif data.find(r3) is not -1:
+[1.100s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:43: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.100s]   elif data.find(com2) is not -1:
+[1.100s] /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:47: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[1.100s]   elif data.find(com3) is not -1:
+[1.100s] byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/__init__.py to __init__.cpython-38.pyc
+[1.100s] running install_data
+[1.107s] creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index
+[1.107s] creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index
+[1.107s] creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index/packages
+[1.107s] copying resource/drone_nettomav -> /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index/packages
+[1.107s] copying package.xml -> /home/afrobudha/hello_drone/install/drone_nettomav/share/drone_nettomav
+[1.108s] running install_egg_info
+[1.153s] Copying ../../build/drone_nettomav/drone_nettomav.egg-info to /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav-0.0.0-py3.8.egg-info
+[1.153s] running install_scripts
+[1.256s] Installing commander script to /home/afrobudha/hello_drone/install/drone_nettomav/lib/drone_nettomav
+[1.256s] Installing receiver script to /home/afrobudha/hello_drone/install/drone_nettomav/lib/drone_nettomav
+[1.257s] writing list of installed files to '/home/afrobudha/hello_drone/build/drone_nettomav/install.log'
+[1.294s] Invoked command in '/home/afrobudha/hello_drone/src/drone_nettomav' returned '0': PYTHONPATH=/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_nettomav build --build-base /home/afrobudha/hello_drone/build/drone_nettomav/build install --prefix /home/afrobudha/hello_drone/install/drone_nettomav --record /home/afrobudha/hello_drone/build/drone_nettomav/install.log --single-version-externally-managed

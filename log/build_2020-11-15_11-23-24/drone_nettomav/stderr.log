@@ -1,0 +1,12 @@
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if data.find(com1) is not -1:
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:35: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if data.find(r1) is not -1:
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:37: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif data.find(r2) is not -1:
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:39: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif data.find(r3) is not -1:
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:43: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif data.find(com2) is not -1:
+/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:47: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif data.find(com3) is not -1:

@@ -1,0 +1,4 @@
+[console_scripts]
+commander = drone_nettomav.commander:main
+receiver = drone_nettomav.receiver:main
+

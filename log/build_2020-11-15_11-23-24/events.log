@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000168] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000206] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000237] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000343] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000427] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001222] (drone_nettomav) JobQueued: {'identifier': 'drone_nettomav', 'dependencies': OrderedDict()}
+[0.001366] (drone_nettomav) JobStarted: {'identifier': 'drone_nettomav'}
+[0.100065] (-) TimerEvent: {}
+[0.201216] (-) TimerEvent: {}
+[0.301735] (-) TimerEvent: {}
+[0.398458] (drone_nettomav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_nettomav', 'build', '--build-base', '/home/afrobudha/hello_drone/build/drone_nettomav/build', 'install', '--prefix', '/home/afrobudha/hello_drone/install/drone_nettomav', '--record', '/home/afrobudha/hello_drone/build/drone_nettomav/install.log', '--single-version-externally-managed'], 'cwd': '/home/afrobudha/hello_drone/src/drone_nettomav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'afrobudha', 'SSH_AGENT_PID': '1789', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/afrobudha', 'OLDPWD': '/home/afrobudha', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1561', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/afrobudha/ros2_install', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'afrobudha', 'JOURNAL_STREAM': '9:34761', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'afrobudha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/afrobudha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/RoboBox:@/tmp/.ICE-unix/1841,unix/RoboBox:/tmp/.ICE-unix/1841', 'INVOCATION_ID': '3c1164a8abff49d596cd85c0ce0aa450', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/665e565c_00d0_468a_9a24_d4f19dad42eb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/afrobudha/hello_drone/build/drone_nettomav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages:'}, 'shell': False}
+[0.402648] (-) TimerEvent: {}
+[0.503906] (-) TimerEvent: {}
+[0.605347] (-) TimerEvent: {}
+[0.708701] (-) TimerEvent: {}
+[0.813494] (-) TimerEvent: {}
+[0.817264] (drone_nettomav) StdoutLine: {'line': b'running egg_info\n'}
+[0.818163] (drone_nettomav) StdoutLine: {'line': b'creating ../../build/drone_nettomav/drone_nettomav.egg-info\n'}
+[0.818530] (drone_nettomav) StdoutLine: {'line': b'writing ../../build/drone_nettomav/drone_nettomav.egg-info/PKG-INFO\n'}
+[0.818841] (drone_nettomav) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_nettomav/drone_nettomav.egg-info/dependency_links.txt\n'}
+[0.819168] (drone_nettomav) StdoutLine: {'line': b'writing entry points to ../../build/drone_nettomav/drone_nettomav.egg-info/entry_points.txt\n'}
+[0.819316] (drone_nettomav) StdoutLine: {'line': b'writing requirements to ../../build/drone_nettomav/drone_nettomav.egg-info/requires.txt\n'}
+[0.819478] (drone_nettomav) StdoutLine: {'line': b'writing top-level names to ../../build/drone_nettomav/drone_nettomav.egg-info/top_level.txt\n'}
+[0.864759] (drone_nettomav) StdoutLine: {'line': b"writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'\n"}
+[0.914254] (-) TimerEvent: {}
+[1.015419] (-) TimerEvent: {}
+[1.044982] (drone_nettomav) StdoutLine: {'line': b"reading manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'\n"}
+[1.046823] (drone_nettomav) StdoutLine: {'line': b"writing manifest file '../../build/drone_nettomav/drone_nettomav.egg-info/SOURCES.txt'\n"}
+[1.047178] (drone_nettomav) StdoutLine: {'line': b'running build\n'}
+[1.047346] (drone_nettomav) StdoutLine: {'line': b'running build_py\n'}
+[1.047883] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/build/drone_nettomav/build\n'}
+[1.048042] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/build/drone_nettomav/build/lib\n'}
+[1.048250] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav\n'}
+[1.048427] (drone_nettomav) StdoutLine: {'line': b'copying drone_nettomav/commander.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav\n'}
+[1.048551] (drone_nettomav) StdoutLine: {'line': b'copying drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav\n'}
+[1.048932] (drone_nettomav) StdoutLine: {'line': b'copying drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav\n'}
+[1.049064] (drone_nettomav) StdoutLine: {'line': b'running install\n'}
+[1.068490] (drone_nettomav) StdoutLine: {'line': b'running install_lib\n'}
+[1.095497] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav\n'}
+[1.095863] (drone_nettomav) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/commander.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav\n'}
+[1.096155] (drone_nettomav) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/receiver.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav\n'}
+[1.096340] (drone_nettomav) StdoutLine: {'line': b'copying /home/afrobudha/hello_drone/build/drone_nettomav/build/lib/drone_nettomav/__init__.py -> /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav\n'}
+[1.097079] (drone_nettomav) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/commander.py to commander.cpython-38.pyc\n'}
+[1.099092] (drone_nettomav) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py to receiver.cpython-38.pyc\n'}
+[1.099786] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.099938] (drone_nettomav) StderrLine: {'line': b'  if data.find(com1) is not -1:\n'}
+[1.100131] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:35: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.100305] (drone_nettomav) StderrLine: {'line': b'  if data.find(r1) is not -1:\n'}
+[1.100519] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:37: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.100715] (drone_nettomav) StderrLine: {'line': b'  elif data.find(r2) is not -1:\n'}
+[1.100817] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:39: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.100991] (drone_nettomav) StderrLine: {'line': b'  elif data.find(r3) is not -1:\n'}
+[1.101111] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:43: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.101248] (drone_nettomav) StderrLine: {'line': b'  elif data.find(com2) is not -1:\n'}
+[1.101345] (drone_nettomav) StderrLine: {'line': b'/home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/receiver.py:47: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[1.101441] (drone_nettomav) StderrLine: {'line': b'  elif data.find(com3) is not -1:\n'}
+[1.101574] (drone_nettomav) StdoutLine: {'line': b'byte-compiling /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav/__init__.py to __init__.cpython-38.pyc\n'}
+[1.101700] (drone_nettomav) StdoutLine: {'line': b'running install_data\n'}
+[1.107702] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index\n'}
+[1.108047] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index\n'}
+[1.108195] (drone_nettomav) StdoutLine: {'line': b'creating /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index/packages\n'}
+[1.108535] (drone_nettomav) StdoutLine: {'line': b'copying resource/drone_nettomav -> /home/afrobudha/hello_drone/install/drone_nettomav/share/ament_index/resource_index/packages\n'}
+[1.108732] (drone_nettomav) StdoutLine: {'line': b'copying package.xml -> /home/afrobudha/hello_drone/install/drone_nettomav/share/drone_nettomav\n'}
+[1.108916] (drone_nettomav) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.117662] (-) TimerEvent: {}
+[1.154371] (drone_nettomav) StdoutLine: {'line': b'Copying ../../build/drone_nettomav/drone_nettomav.egg-info to /home/afrobudha/hello_drone/install/drone_nettomav/lib/python3.8/site-packages/drone_nettomav-0.0.0-py3.8.egg-info\n'}
+[1.154648] (drone_nettomav) StdoutLine: {'line': b'running install_scripts\n'}
+[1.220430] (-) TimerEvent: {}
+[1.257264] (drone_nettomav) StdoutLine: {'line': b'Installing commander script to /home/afrobudha/hello_drone/install/drone_nettomav/lib/drone_nettomav\n'}
+[1.257696] (drone_nettomav) StdoutLine: {'line': b'Installing receiver script to /home/afrobudha/hello_drone/install/drone_nettomav/lib/drone_nettomav\n'}
+[1.258366] (drone_nettomav) StdoutLine: {'line': b"writing list of installed files to '/home/afrobudha/hello_drone/build/drone_nettomav/install.log'\n"}
+[1.294882] (drone_nettomav) CommandEnded: {'returncode': 0}
+[1.319625] (-) TimerEvent: {}
+[1.412326] (drone_nettomav) JobEnded: {'identifier': 'drone_nettomav', 'rc': 0}
+[1.413860] (-) EventReactorShutdown: {}
